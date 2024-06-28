@@ -1,0 +1,60 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+form{
+    width: 60%;
+    height: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.addName input{
+    width: 60%;
+    height: 2rem;
+    border: 0cap;
+    border-radius: 5px;
+    text-align: center
+}
+
+.addPass input{
+    width: 60%;
+    height: 2rem;
+    border: 0cap;
+    border-radius: 5px;
+    text-align: center
+}
+
+.labSubmit:hover a{
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+.labSubmit:hover button{
+    background-color: #1259c3;
+    transition: 500ms;
+}
+.labSubmit button {
+    width: 20%;
+    border: none;
+    height: 2rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
