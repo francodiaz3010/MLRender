@@ -1,7 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-app.listen(3000, () => console.log("server up in http://localhost:3000"));
+const port = 3000 || process.env.PORT ;
+app.listen(port, () => console.log("server up in http://localhost:3000"));
 
 app.get("/", (req,res) => {
     res.sendFile(path.resolve("./views/home.html"))
